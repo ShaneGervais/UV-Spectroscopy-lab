@@ -1,9 +1,10 @@
-#UV Spectra in Solution
-#@Shane Gervais
-#3620569
-#This code is made to plot and
-#analyze our UV data from our
-#lab in CHEM4616 with Dr. Kassimi.
+"""
+UV Spectra in Solution
+by Shane Gervais
+This code is made to plot and
+analyze our UV data from the
+lab in CHEM4616 with Dr. Kassimi.
+"""
 
 #Import methods that will help us for the analysis
 import pandas as pd
@@ -154,8 +155,3 @@ print("The molar extinction coefficient for ethanol solution is: ", epsiE, " L/m
 #Hexane
 epsiH = (max(absorptionH))/(con*l)
 print("The molar extinction coefficient for hexane solution is: ", epsiH, " L/mol*cm")
-
-
-
-
-
